@@ -12,13 +12,26 @@ html{
     color: #fff;
  }
 #header{
+    position: relative;
     position: fixed;
     width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease;
     height: 100vh;
     background-image: url(E:/portfolio/images/portfolio_img.jpg);
     background-size: cover;
     background-position: center;
+    
 }
+
 .container{
     padding: 10px 10%;
 }
