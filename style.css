@@ -4,6 +4,12 @@
     font-size: 'Poppins','Sans-serif';
     box-sizing: border-box;
 }
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 html{
     scroll-behavior: smooth;
 }
