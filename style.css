@@ -137,8 +137,9 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+
 .p1{
-    text-align : "justify";
+    text-align: justify;
 }
 /*--------------------services----------------*/
 #services{
