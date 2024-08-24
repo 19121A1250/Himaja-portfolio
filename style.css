@@ -4,12 +4,6 @@
     font-size: 'Poppins','Sans-serif';
     box-sizing: border-box;
 }
-#header{
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
 html{
     scroll-behavior: smooth;
 }
@@ -17,16 +11,22 @@ html{
     background-color: #080808;
     color: #fff;
  }
-
-
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(E:/portfolio/images/portfolio_img.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .container{
     padding: 10px 10%;
 }
 .hima{
-    position : fixed;
+    position: fixed;
+    
 }
 .col{
-    color :#080808;
+    color: #080808;
 }
 
 nav{
@@ -149,7 +149,6 @@ nav ul li a:hover::after{
     display: block;
 }
 
-
 /*--------------------services----------------*/
 #services{
     padding: 30px 0;
@@ -188,11 +187,9 @@ nav ul li a:hover::after{
     background: #ff004f;
     transform: translateY(-10px);
 }
-
 .p1{
     text-align: justify;
 }
-
 .p11{
     text-align: justify;
     font-size: 120%;
